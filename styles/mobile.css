@@ -115,7 +115,11 @@ text-align: justify;
   color: #007BFF; /* azul ou cor desejada */
 }
 
-.banner__titulo{
+
+@media(max-width:379px){
+.banner__titulo, .banner__titulo-destaque{
   width: 100%;
  margin-top: -40px;
+ font-size: 30px;
+}
 }
