@@ -1,6 +1,7 @@
 .header{
     margin: 0 auto;
     max-width: var(--max-width-block);
+    background-color: aliceblue;
 }
 
 .nav__list{
@@ -42,7 +43,7 @@
 
 .nav__icons{ 
     display: flex;
-    gap: 40px;
+    gap: 10px;
     
 }
 

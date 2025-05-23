@@ -5,6 +5,7 @@
     list-style-type: none;
     align-items: center;
     justify-content: center ;
+    display: flex;
 }
 
 .link__externo{

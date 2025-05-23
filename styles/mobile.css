@@ -1,0 +1,116 @@
+
+
+@media (max-width: 850px) {
+
+  
+  .nav__item, .nav__icons {
+    /* display: none; */
+    color: aliceblue!important;
+
+   
+  
+  }
+
+    .item{
+    color: aliceblue;
+    width: 35px;
+    height: 35px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 3px;
+    }
+
+  .logo,
+  .menu__toogle {
+    display: block !important;
+  }
+
+.header{
+  background-color: rgb(43, 43, 43)!important;
+  width: 100%;
+  
+}
+
+ .nav__item.has-link {
+  display: none;
+  width: 100%!important ;
+  text-align: left;
+  border-bottom: 1px solid #000000; 
+  margin: 0;
+  padding: 0;
+}
+
+
+  .nav__item.has-link.show {
+    display: block;
+  }
+
+  .nav__link {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    color:rgb(228, 228, 228);
+    text-decoration: none;
+  }
+
+ .menu__toogle__icom{
+    background-color: aliceblue!important;
+ }
+}
+
+.nav__form {
+  position: relative;
+  width: 100%;
+}
+
+.nav__input {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sugestoes-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  
+  background-color: #3a3a3a;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #ccc;
+text-align: justify;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  
+  display: none; /* inicialmente oculta */
+}
+
+.sugestoes-lista li {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.sugestoes-lista li:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+.sugestoes-lista li i {
+  margin-right: 10px;
+  color: #007BFF; /* azul ou cor desejada */
+}

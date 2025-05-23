@@ -19,53 +19,62 @@
     <link rel="stylesheet" href="./styles/newsletter.css" />
     <link rel="stylesheet" href="./styles/separador.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   </head>
   <body>
     
     <header class="header">
       <nav class="nav" arial-label="navegação principal">
         <ul class="nav__list">
-          <li class="menu__toogle">
-            <button class="menu__toogle__icom" aria-label="menu-hamburguer">
-              <img src="./images/menu.svg" alt="menu-hamburguer">
-            </button>
-          </li>
+  <li class="menu__toogle">
+    <button class="menu__toogle__icom" aria-label="menu-hamburguer">
+      <img src="./images/menu.svg" alt="menu-hamburguer">
+    </button>
+  </li>
+
+  <li class="nav__item logo">
+    <a href="index.html">
+      <img src="./images/Logo.svg" alt="logo da luz e cena">
+    </a>
+  </li>
+
+  <!-- Estes são os menus que irão "descer" -->
+  <li class="nav__item has-link">
+    <a href="#" class="nav__link">Eventos</a>
+  </li>
+  <li class="nav__item has-link">
+    <a href="#" class="nav__link">Club fidelidade</a>
+  </li>
+  <li class="nav__item has-link">
+    <a href="#" class="nav__link">Sobre nós</a>
+  </li>
+
+  <!-- Estes também somem no mobile -->
+ <li class="nav__item nav__item_form">
+  <form class="nav__form" autocomplete="off">
+    <input
+      type="search"
+      placeholder="São José dos Campos"
+      id="localizacao"
+      class="nav__input"
+    />
+    <ul id="sugestoes" class="sugestoes-lista"></ul>
+  </form>
+</li>
 
 
-          <li class="nav__item">
-            <a href="index.html">
-              <img src="./images/Logo.svg" alt="logo da luz e cena">
-            </a>
-          </li>
+  <li class="nav__item nav__icons">
+    <a href="#" arial-label="carrinho de compras">
+      <img src="./images/Carrinho.svg" alt="carrinho" class="item">
+    </a>
+    <a href="#" arial-label="perfil">
+      <img src="./images/Perfil.svg" alt="meu perfil" class="item">
+    </a>
+  </li>
+</ul>
 
-          <li class="nav__item">
-            <a href="#" class="nav__link">Eventos</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="#" class="nav__link">Club fidelidade</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="#" class="nav__link">Sobre nós</a>
-          </li>
-
-          <li class="nav__item_form">
-            <form class="nav__form">
-                <input type="search" placeholder="São José dos Campos" id="localizacao" class="nav__input">
-            </form>
-          </li>
-
-          <li class="nav__item nav__icons">
-            <a href="#" arial-label="carrinho de compras">
-              <img src="./images/Carrinho.svg" alt="carrinho">
-            </a>
-
-            <a href="#" arial-label="perfil">
-              <img src="./images/Perfil.svg" alt="meu perfil">
-            </a>
-          </li>
-        </ul>
       </nav>
     </header>
 
